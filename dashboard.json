@@ -1128,32 +1128,7 @@
           },
           "unit": "bytes"
         },
-        "overrides": [
-          {
-            "__systemRef": "hideSeriesFrom",
-            "matcher": {
-              "id": "byNames",
-              "options": {
-                "mode": "exclude",
-                "names": [
-                  "prometheus-server-66cc6c8ffb-8tlp5"
-                ],
-                "prefix": "All except:",
-                "readOnly": true
-              }
-            },
-            "properties": [
-              {
-                "id": "custom.hideFrom",
-                "value": {
-                  "legend": false,
-                  "tooltip": false,
-                  "viz": true
-                }
-              }
-            ]
-          }
-        ]
+        "overrides": []
       },
       "gridPos": {
         "h": 11,
@@ -1352,6 +1327,6 @@
   "timezone": "browser",
   "title": "K8s Resource Monitoring",
   "uid": "k8s-resource-monitoring",
-  "version": 22,
+  "version": 2,
   "weekStart": ""
 }
